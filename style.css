@@ -1,0 +1,57 @@
+body {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    flex-direction: column;
+    /* padding: 1rem; */
+}
+h1 {
+    height: 100px;
+    width: 100vh;
+    background-color: yellow;
+    color: black;
+    border: solid 4px black;
+    border-radius: 50px;
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div>input {
+    background-color: rgb(130, 240, 240);
+    height: 70px;
+    font-size: 20px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+}
+.btn {
+    height: 40px;
+    width: fit-content;
+    padding: 0.5rem;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.lists {
+    width: 1000px;
+    margin-top: 10px;
+}
+.lists li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    border: 2px solid blue;
+    box-sizing: border-box;
+    font-size: 30px;
+}
+
+.Delete {
+    margin-left: 15px;
+    background-color: rgb(231, 46, 13);
+    font-size: 20px;
+}
