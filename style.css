@@ -6,6 +6,7 @@ body {
     align-items: center;
     flex-direction: column;
     /* padding: 1rem; */
+    background-color: rgb(179, 133, 223);
 }
 h1 {
     height: 100px;
